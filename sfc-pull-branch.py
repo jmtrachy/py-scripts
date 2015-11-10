@@ -11,7 +11,6 @@ args = parser.parse_args()
 branch_name = args.branch_name
 
 os.chdir("dev/SFConnector/code/managed-package")
-
 commands = "git checkout master && git pull"
 
 if branch_name is not None:
